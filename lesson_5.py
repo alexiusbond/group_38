@@ -18,3 +18,4 @@ print(config('SECRET_KEY'))
 print(config('DATABASE_URL'))
 commented = config('COMMENTED', default=0, cast=int)
 print(commented * 2)
+# end of program
